@@ -32,7 +32,7 @@ function NavBar() {
           </h1>
           <div className="flex flex-row gap-30 mt-10">
             <p className="max-w-[25rem] text-sm px-2 md:px-2 mt-10  font-mono">
-              Hi, I’m Md Huzef — a passionate Full-Stack Developer. With a
+              Hi, I’m Md Huzef — a passionate Full-Stack Developer.Flutter Developer, With a
               strong foundation in the MERN stack and experience building
               dynamic web and mobile applications, I love solving real-world
               problems through clean, scalable code. I'm currently expanding my
