@@ -21,7 +21,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="bg-[#000000] min-h-screen p-5 md:p-10 flex flex-col items-center justify-center gap-10 overflow-hidden">
+    <div className="bg-[#000000] min-h-screen p-5  flex flex-col items-center justify-center gap-10 overflow-hidden">
       <div>
         <div>
           <h1>
@@ -30,19 +30,19 @@ function NavBar() {
               Huzef dev
             </span>
           </h1>
-          <div className="flex flex-row gap-30 mt-10">
-            <p className="max-w-[25rem] text-sm px-2 md:px-2 mt-10  font-mono">
-              Hi, I’m Md Huzef — a passionate Full-Stack Developer.Flutter Developer, With a
-              strong foundation in the MERN stack and experience building
-              dynamic web and mobile applications, I love solving real-world
-              problems through clean, scalable code. I'm currently expanding my
-              skills in Flutter for cross-platform development and always eager
-              to learn and grow in the tech world.
+          <div className="flex flex-col sm:flex-row gap-10 mt-10 sm:mt-5 items-center">
+            <p className="max-w-md sm:max-w-sm h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left">
+              Hi, I’m Md Huzef — a passionate Full-Stack Developer. Flutter
+              Developer, With a strong foundation in the MERN stack and
+              experience building dynamic web and mobile applications, I love
+              solving real-world problems through clean, scalable code. I'm
+              currently expanding my skills in Flutter for cross-platform
+              development and always eager to learn and grow in the tech world.
             </p>
             <img
-              src={"/images/profile (1).jpg"}
+              src="/images/profile (1).jpg"
               alt="my pic"
-              className=" w-50 h-50  rounded-full object-cover"
+              className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover"
             />
           </div>
           <div className="mt-15">
@@ -80,21 +80,6 @@ function NavBar() {
               />
             </span>
             <hr className="mt-20  border-gray-300" />
-
-            <div className="mt-10 flex flex-row gap-5 font-mono place-self-center">
-              <h1>
-                {" "}
-                <span
-                  className="text-3xl text-gray-400
-              "
-                >
-                  My,
-                </span>
-                <span className="text-5xl font-serif text-blue-500">
-                  Projects
-                </span>
-              </h1>
-            </div>
 
             {/* <div className="mt-10">
               <button className="p-3 w-30 bg-blue-500 rounded-xl cursor-pointer">Resume </button>
