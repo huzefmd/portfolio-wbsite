@@ -26,7 +26,7 @@ function NavBar() {
         <div>
           <h1>
             <span className="md:text-6xl text-gray-400 font-mono sm:text-4xl">Hi, Iam </span>
-            <span className="md:text-8xl text-blue-500 font-serif  sm:text-6xl">
+            <span className="md:text-8xl text-blue-500 font-serif  sm:text-8xl">
               Huzef dev
             </span>
           </h1>
