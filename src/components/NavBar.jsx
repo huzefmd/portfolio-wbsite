@@ -25,7 +25,7 @@ function NavBar() {
     <div className="bg-[#000000] min-h-screen p-5  flex flex-col items-center justify-center gap-10 overflow-hidden">
       <div>
         <div>
-          <h1>
+          <h1 className="text-center place-self-center justify-center ">
             <span className=" text-2xl md:text-6xl text-gray-400 font-mono text-center ">
               Hi, Iam{" "}
             </span>
