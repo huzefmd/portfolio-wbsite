@@ -24,15 +24,20 @@ function NavBar() {
       <div>
         <div>
           <h1>
-            <span className=" text-2xl md:text-6xl text-gray-400 font-mono ">
+            <span className=" text-2xl md:text-6xl text-gray-400 font-mono text-center ">
               Hi, Iam{" "}
             </span>
             <span className=" text-4xl md:text-8xl text-blue-500 font-serif  ">
               Huzef dev
             </span>
           </h1>
-          <div className="flex flex-col sm:flex-row gap-10 mt-10 sm:mt-5 items-center">
-            <p className="max-w-md sm:max-w-sm h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left">
+          <div className="flex flex-col sm:flex-row gap-10 mt-10 sm:mt-5 items-center ">
+            <img
+              src="/images/profile (1).jpg"
+              alt="my pic"
+              className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover"
+            />
+            <p className="max-w-md sm:max-w-sm   h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left">
               Hi, I’m Md Huzef — a passionate Full-Stack Developer. Flutter
               Developer, With a strong foundation in the MERN stack and
               experience building dynamic web and mobile applications, I love
@@ -40,11 +45,6 @@ function NavBar() {
               currently expanding my skills in Flutter for cross-platform
               development and always eager to learn and grow in the tech world.
             </p>
-            <img
-              src="/images/profile (1).jpg"
-              alt="my pic"
-              className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover"
-            />
           </div>
           <div className="mt-15">
             <span className="text-4xl text-gray-400 font-mono">Hi, am </span>
