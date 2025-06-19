@@ -24,10 +24,10 @@ function NavBar() {
       <div>
         <div>
           <h1>
-            <span className="md:text-6xl text-gray-400 font-mono ">
+            <span className=" text-2xl md:text-6xl text-gray-400 font-mono ">
               Hi, Iam{" "}
             </span>
-            <span className="md:text-8xl text-blue-500 font-serif  ">
+            <span className=" text-4xl md:text-8xl text-blue-500 font-serif  ">
               Huzef dev
             </span>
           </h1>
