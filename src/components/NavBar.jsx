@@ -56,13 +56,13 @@ function NavBar() {
               <img
                 src={"images/flutter-icon-2048x2048-ufx4idi8.png"}
                 alt="flutter"
-                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"images/Dart.png"}
                 alt="flutter"
                 // className=" bg-black w-15 h-15 rounded-full"
-                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
             <span className="text-5xl text-blue-500 flex flex-row gap-10 mt-10 font-serif">
@@ -71,19 +71,19 @@ function NavBar() {
                 src={"/images/react-logo.png"}
                 alt="flutter"
                 // className=" bg-black w-15 h-15 rounded-full"
-                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"/images/t1.png"}
                 alt="flutter"
                 // className=" bg-black w-15 h-15 rounded-full "
-                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"/images/Node.js.png"}
                 alt="flutter"
                 // className="  w-15 h-15 rounded-full "
-                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
             <hr className="mt-20  border-gray-300" />
