@@ -4,10 +4,11 @@ function NavBar() {
   const words = [
     {
       text: "Flutter",
+      className: "text-3xl sm:text-5xl",
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500 gap-2",
+      className: "text-blue-500 dark:text-blue-500 gap-2 text-3xl sm:text-5xl",
     },
   ];
   const words1 = [
@@ -16,7 +17,7 @@ function NavBar() {
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-blue-500 dark:text-blue-500 text-3xl sm:text-5xl",
     },
   ];
   return (
