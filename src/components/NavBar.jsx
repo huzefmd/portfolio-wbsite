@@ -37,7 +37,9 @@ function NavBar() {
               alt="my pic"
               className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover"
             />
-            <p className="max-w-md sm:max-w-sm   h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left">
+            <p className="max-w-md sm:max-w-sm   h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left ">
+              <strong className="text-3xl text-blue-500">About</strong>
+              <br />
               Hi, I’m Md Huzef — a passionate Full-Stack Developer. Flutter
               Developer, With a strong foundation in the MERN stack and
               experience building dynamic web and mobile applications, I love
@@ -54,12 +56,13 @@ function NavBar() {
               <img
                 src={"images/flutter-icon-2048x2048-ufx4idi8.png"}
                 alt="flutter"
-                className=" bg-black w-15 h-15 rounded-full"
+                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"images/Dart.png"}
                 alt="flutter"
-                className=" bg-black w-15 h-15 rounded-full"
+                // className=" bg-black w-15 h-15 rounded-full"
+                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
             <span className="text-5xl text-blue-500 flex flex-row gap-10 mt-10 font-serif">
@@ -67,17 +70,20 @@ function NavBar() {
               <img
                 src={"/images/react-logo.png"}
                 alt="flutter"
-                className=" bg-black w-15 h-15 rounded-full"
+                // className=" bg-black w-15 h-15 rounded-full"
+                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"/images/t1.png"}
                 alt="flutter"
-                className=" bg-black w-15 h-15 rounded-full "
+                // className=" bg-black w-15 h-15 rounded-full "
+                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
               />
               <img
                 src={"/images/Node.js.png"}
                 alt="flutter"
-                className="  w-15 h-15 rounded-full "
+                // className="  w-15 h-15 rounded-full "
+                className=" bg-black w-8 h-8  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
             <hr className="mt-20  border-gray-300" />
