@@ -1,10 +1,9 @@
 import React from "react";
-import { TypewriterEffectSmooth } from './typewriter-effect.jsx'
+import { TypewriterEffectSmooth } from "./typewriter-effect.jsx";
 function NavBar() {
   const words = [
     {
       text: "Flutter",
-      
     },
     {
       text: "Developer",
@@ -25,8 +24,10 @@ function NavBar() {
       <div>
         <div>
           <h1>
-            <span className="md:text-6xl text-gray-400 font-mono sm:text-4xl">Hi, Iam </span>
-            <span className="md:text-8xl text-blue-500 font-serif  sm:text-8xl">
+            <span className="md:text-6xl text-gray-400 font-mono sm:text-4xl">
+              Hi, Iam{" "}
+            </span>
+            <span className="md:text-8xl text-blue-500 font-serif  sm:text-6xl">
               Huzef dev
             </span>
           </h1>
