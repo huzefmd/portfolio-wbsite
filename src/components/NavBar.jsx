@@ -4,21 +4,21 @@ function NavBar() {
   const words = [
     {
       text: "App",
-      className: "text-2xl sm:text-4xl mr-2 ",
+      className: "text-2xl sm:text-4xl  ",
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500 gap-2 text-3xl sm:text-5xl mr-2",
+      className: "text-blue-500 dark:text-blue-500 gap-2 text-3xl sm:text-5xl ",
     },
   ];
   const words1 = [
     {
       text: "Web",
-      className: "text-2xl sm:text-4xl mr-2",
+      className: "text-2xl sm:text-4xl ",
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500 text-3xl sm:text-5xl mr-2",
+      className: "text-blue-500 dark:text-blue-500 text-3xl sm:text-5xl ",
     },
   ];
   return (
