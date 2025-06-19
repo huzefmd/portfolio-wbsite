@@ -3,8 +3,8 @@ import { TypewriterEffectSmooth } from "./typewriter-effect.jsx";
 function NavBar() {
   const words = [
     {
-      text: "App",
-      className: "text-2xl sm:text-4xl  ",
+      text: "App\u00A0",
+      className: "text-3xl sm:text-5xl font-mono   ",
     },
     {
       text: "Developer",
@@ -13,8 +13,8 @@ function NavBar() {
   ];
   const words1 = [
     {
-      text: "Web",
-      className: "text-2xl sm:text-4xl ",
+      text: "Web\u00A0",
+      className: "text-3xl sm:text-5xl font-mono  ",
     },
     {
       text: "Developer",
@@ -51,7 +51,7 @@ function NavBar() {
             </p>
           </div>
           <div className="mt-10">
-            <span className="text-4xl text-gray-400 font-mono">Hi, am </span>
+            <span className="text-4xl text-gray-400 font-mono">Hi,I am </span>
             <span className="text-5xl text-blue-500 flex flex-row gap-10  font-serif mt-5">
               {/* Flutter App Developer */}
               <TypewriterEffectSmooth words={words} />
