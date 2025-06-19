@@ -3,8 +3,8 @@ import { TypewriterEffectSmooth } from "./typewriter-effect.jsx";
 function NavBar() {
   const words = [
     {
-      text: "Flutter",
-      className: "text-3xl sm:text-5xl",
+      text: "App",
+      className: "text-2xl sm:text-4xl",
     },
     {
       text: "Developer",
@@ -14,6 +14,7 @@ function NavBar() {
   const words1 = [
     {
       text: "Web",
+      className: "text-2xl sm:text-4xl",
     },
     {
       text: "Developer",
