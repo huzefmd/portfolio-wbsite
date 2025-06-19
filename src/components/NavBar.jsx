@@ -4,21 +4,21 @@ function NavBar() {
   const words = [
     {
       text: "App",
-      className: "text-2xl sm:text-4xl",
+      className: "text-2xl sm:text-4xl mr-2 ",
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500 gap-2 text-3xl sm:text-5xl",
+      className: "text-blue-500 dark:text-blue-500 gap-2 text-3xl sm:text-5xl mr-2",
     },
   ];
   const words1 = [
     {
       text: "Web",
-      className: "text-2xl sm:text-4xl",
+      className: "text-2xl sm:text-4xl mr-2",
     },
     {
       text: "Developer",
-      className: "text-blue-500 dark:text-blue-500 text-3xl sm:text-5xl",
+      className: "text-blue-500 dark:text-blue-500 text-3xl sm:text-5xl mr-2",
     },
   ];
   return (
@@ -50,7 +50,7 @@ function NavBar() {
               development and always eager to learn and grow in the tech world.
             </p>
           </div>
-          <div className="mt-15">
+          <div className="mt-10">
             <span className="text-4xl text-gray-400 font-mono">Hi, am </span>
             <span className="text-5xl text-blue-500 flex flex-row gap-10  font-serif mt-5">
               {/* Flutter App Developer */}
@@ -67,7 +67,7 @@ function NavBar() {
                 className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
-            <span className="text-5xl text-blue-500 flex flex-row gap-10 mt-10 font-serif">
+            <span className="text-5xl text-blue-500 flex flex-row gap-10  font-serif">
               <TypewriterEffectSmooth words={words1} />
               <img
                 src={"/images/react-logo.png"}
