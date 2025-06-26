@@ -1,5 +1,6 @@
 import React from "react";
 import { TypewriterEffectSmooth } from "./typewriter-effect.jsx";
+import Footer from "./Footer.jsx";
 function NavBar() {
   const words = [
     {
@@ -97,6 +98,7 @@ function NavBar() {
         </div>
       </div>
     </div>
+
   );
 }
 
