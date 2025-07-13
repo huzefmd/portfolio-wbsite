@@ -54,49 +54,54 @@ function NavBar() {
               development and always eager to learn and grow in the tech world.
             </p>
           </div>
-          <div className="mt-10">
-            <span className="text-4xl text-gray-400 font-mono">Hi,I am </span>
-            <span className="text-5xl text-blue-500 flex flex-row gap-1 items-center  justify-center font-serif mt-5">
-              {/* Flutter App Developer */}
-              <TypewriterEffectSmooth words={words} />
-              <img
-                src={"images/flutter-icon-2048x2048-ufx4idi8.png"}
-                alt="flutter"
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full "
-              />
-              <img
-                src={"images/Dart.png"}
-                alt="flutter"
-                // className=" bg-black w-15 h-15 rounded-full"
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
-              />
-            </span>
-            <span className="text-5xl text-blue-500 flex flex-row  gap-1 font-serif  items-center justify-center ">
-              <TypewriterEffectSmooth words={words1} />
-              <img
-                src={"/images/react-logo.png"}
-                alt="flutter"
-                // className=" bg-black w-15 h-15 rounded-full"
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
-              />
-              <img
-                src={"/images/t1.png"}
-                alt="flutter"
-                // className=" bg-black w-15 h-15 rounded-full "
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
-              />
-              <img
-                src={"/images/Node.js.png"}
-                alt="flutter"
-                // className="  w-15 h-15 rounded-full "
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
-              />
-            </span>
-            <hr className="mt-20  border-gray-300" />
+          <div className="mt-10 px-4 sm:px-10 w-full max-w-5xl mx-auto  rounded-lg">
+            <div className="text-center sm:text-left">
+              <span className="text-3xl sm:text-4xl text-gray-400 font-mono block">
+                Hi, I am
+              </span>
 
-            {/* <div className="mt-10">
-              <button className="p-3 w-30 bg-blue-500 rounded-xl cursor-pointer">Resume </button>
-            </div> */}
+              <span className="text-3xl sm:text-5xl text-blue-500 flex flex-wrap gap-3 items-center justify-center sm:justify-start font-serif mt-5">
+                <TypewriterEffectSmooth words={words} />
+                <img
+                  src="/images/flutter-icon-2048x2048-ufx4idi8.png"
+                  alt="flutter"
+                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
+                />
+                <img
+                  src="/images/Dart.png"
+                  alt="dart"
+                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
+                />
+              </span>
+
+              <span className="text-3xl sm:text-5xl text-blue-500 flex flex-wrap gap-3 items-center justify-center sm:justify-start font-serif mt-5">
+                <TypewriterEffectSmooth words={words1} />
+                <img
+                  src="/images/react-logo.png"
+                  alt="react"
+                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
+                />
+                <img
+                  src="/images/t1.png"
+                  alt="tailwind"
+                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
+                />
+                <img
+                  src="/images/Node.js.png" 
+                  alt="nodejs"
+                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
+                />
+              </span>
+            </div>
+
+            <hr className="mt-10 border-gray-300" />
+
+            {/* Resume Button (optional) */}
+            {/* <div className="mt-6 text-center">
+    <button className="p-3 px-6 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition">
+      Resume
+    </button>
+  </div> */}
           </div>
         </div>
       </div>
