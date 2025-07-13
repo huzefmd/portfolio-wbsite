@@ -1,23 +1,25 @@
-import React from 'react'
-import NavBar from './components/NavBar'
-import Home from './components/Home'
-import Footer from './components/Footer'
+import React from "react";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div
-      className="h-screen w-screen bg-neutral-950 flex md:flex-col flex-row items center justify-center text-white"
+      className="min-h-screen w-screen bg-neutral-950 text-white overflow-auto"
       style={{
-        backgroundImage: `radial-gradient(circle at 1px 1px, rgba(128,128,128,0.2)  2px, transparent 0)`,
+        backgroundImage: `radial-gradient(circle at 1px 1px, rgba(128,128,128,0.2) 2px, transparent 0)`,
         backgroundSize: "8px 8px",
         backgroundRepeat: "repeat",
       }}
     >
-      <NavBar />
-      <Home />
+      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+        <NavBar />
+        <Home />
+      </div>
       <Footer />
     </div>
   );
 }
 
-export default App
+export default App;

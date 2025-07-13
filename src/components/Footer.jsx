@@ -1,23 +1,20 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
-  function cureentTime() {
-    time=new Date().getTime()
-  }
+  const now = new Date();
+
   return (
-    <footer className=" text-white  flex items-center justify-center md:flex-col flex-row ">
-      <div className=" flex justify-between w-3xl py-7 px-8 items-center  ">
-        <p className="text-sm ">
-          &copy;{new Date().getDate()} / {new Date().getMonth()} /{" "}
-          {new Date().getFullYear()}
-          <br />
-          {new Date().getHours()} : {new Date().getMinutes()}
+    <footer className="w-full  text-white py-6 px-4">
+      <div className="max-w-6xl  mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+        <p className="text-sm">
+          &copy; {now.getDate()}/{now.getMonth() + 1}/{now.getFullYear()} <br />
+          {now.getHours()}:{now.getMinutes().toString().padStart(2, "0")}
         </p>
 
-        <div className="flex space-x-4 mt-2 md:mt-0">
+        <div className="flex space-x-4">
           <a
             href="#"
-            className="hover:underline hover:text-blue-500  hover:scale-110 transition-transform duration-300"
+            className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
           >
             Github
           </a>
@@ -29,9 +26,9 @@ function Footer() {
           </a>
           <a
             href="#"
-            className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300 "
+            className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
           >
-            Linked In
+            LinkedIn
           </a>
         </div>
       </div>
@@ -39,4 +36,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;
