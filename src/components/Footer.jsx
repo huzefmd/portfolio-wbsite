@@ -1,22 +1,36 @@
 import React from 'react'
 
 function Footer() {
+  function cureentTime() {
+    time=new Date().getTime()
+  }
   return (
-    <footer className="bg-blue-500  place-self-center text-white p-5  items-center justify-center gap-8">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-10">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Huzef Portfolio. All rights
-          reserved
+    <footer className=" text-white  flex items-center justify-center md:flex-col flex-row ">
+      <div className=" flex justify-between w-3xl py-7 px-8 items-center  ">
+        <p className="text-sm ">
+          &copy;{new Date().getDate()} / {new Date().getMonth()} /{" "}
+          {new Date().getFullYear()}
+          <br />
+          {new Date().getHours()} : {new Date().getMinutes()}
         </p>
 
         <div className="flex space-x-4 mt-2 md:mt-0">
-          <a href="#" className="hover:underline">
+          <a
+            href="#"
+            className="hover:underline hover:text-blue-500  hover:scale-110 transition-transform duration-300"
+          >
             Github
           </a>
-          <a href="#" className="hover:underline">
+          <a
+            href="#"
+            className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
+          >
             X
           </a>
-          <a href="#" className="hover:underline">
+          <a
+            href="#"
+            className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300 "
+          >
             Linked In
           </a>
         </div>
