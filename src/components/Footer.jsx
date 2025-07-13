@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   const now = new Date();
@@ -13,22 +14,22 @@ function Footer() {
 
         <div className="flex space-x-4">
           <a
-            href="#"
+            href="https://github.com/huzefmd"
             className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
           >
-            Github
+            <FaGithub className="hover:text-blue-400 transition duration-300" />
           </a>
           <a
-            href="#"
+            href="https://x.com/MdHuzef1"
             className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
           >
-            X
+            <FaXTwitter className="hover:text-blue-300 transition duration-300" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/md-huzef-a606ba2a2/ "
             className="hover:underline hover:text-blue-500 hover:scale-110 transition-transform duration-300"
           >
-            LinkedIn
+            <FaLinkedin className="hover:text-blue-500 transition duration-300" />
           </a>
         </div>
       </div>

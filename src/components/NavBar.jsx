@@ -1,5 +1,6 @@
 import React from "react";
 import { TypewriterEffectSmooth } from "./typewriter-effect.jsx";
+
 import Footer from "./Footer.jsx";
 function NavBar() {
   const words = [
@@ -94,7 +95,7 @@ function NavBar() {
               </span>
             </div>
 
-            <hr className="mt-10 border-gray-300" />
+            <hr className="mt-10 border-gray-500" />
 
             {/* Resume Button (optional) */}
             {/* <div className="mt-6 text-center">
