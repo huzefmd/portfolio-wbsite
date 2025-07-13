@@ -53,7 +53,7 @@ function NavBar() {
           </div>
           <div className="mt-10">
             <span className="text-4xl text-gray-400 font-mono">Hi,I am </span>
-            <span className="text-5xl text-blue-500 flex flex-row gap-10  font-serif mt-5">
+            <span className="text-5xl text-blue-500 flex flex-row gap-5 items-center justify-center font-serif mt-5">
               {/* Flutter App Developer */}
               <TypewriterEffectSmooth words={words} />
               <img
@@ -68,7 +68,7 @@ function NavBar() {
                 className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
-            <span className="text-5xl text-blue-500 flex flex-row gap-10  font-serif">
+            <span className="text-5xl text-blue-500 flex flex-row gap-5  font-serif  items-center justify-center">
               <TypewriterEffectSmooth words={words1} />
               <img
                 src={"/images/react-logo.png"}

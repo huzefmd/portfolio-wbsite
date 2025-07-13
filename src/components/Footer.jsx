@@ -4,8 +4,8 @@ function Footer() {
   const now = new Date();
 
   return (
-    <footer className="w-full  text-white py-6 px-4">
-      <div className="max-w-6xl  mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+    <footer className="w-full  text-white py-6 px-4  ">
+      <div className="max-w-3xl  mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4   ">
         <p className="text-sm">
           &copy; {now.getDate()}/{now.getMonth() + 1}/{now.getFullYear()} <br />
           {now.getHours()}:{now.getMinutes().toString().padStart(2, "0")}
