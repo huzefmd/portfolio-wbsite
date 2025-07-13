@@ -38,10 +38,13 @@ function NavBar() {
             <img
               src="/images/profile (1).jpg"
               alt="my pic"
-              className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover"
+              className="w-40 h-40 sm:w-36 sm:h-36 rounded-full object-cover hover:scale-110 duration-1000 hover:shadow-gray-900 hover:shadow"
             />
             <p className="max-w-md sm:max-w-sm   h-auto overflow-hidden text-sm px-2 font-mono text-center sm:text-left ">
-              <strong className="text-3xl text-blue-500">About</strong>
+              <div className="flex items-center space-x-3 group ">
+                <strong className="text-3xl text-blue-500">About</strong>
+                <div className="w-3 h-3 border border-green-500 rounded-full animate-ping bg-green-500"></div>
+              </div>
               <br />
               Hi, I’m Md Huzef — a passionate Full-Stack Developer. Flutter
               Developer, With a strong foundation in the MERN stack and
@@ -53,13 +56,13 @@ function NavBar() {
           </div>
           <div className="mt-10">
             <span className="text-4xl text-gray-400 font-mono">Hi,I am </span>
-            <span className="text-5xl text-blue-500 flex flex-row gap-5 items-center  justify-center font-serif mt-5">
+            <span className="text-5xl text-blue-500 flex flex-row gap-1 items-center  justify-center font-serif mt-5">
               {/* Flutter App Developer */}
               <TypewriterEffectSmooth words={words} />
               <img
                 src={"images/flutter-icon-2048x2048-ufx4idi8.png"}
                 alt="flutter"
-                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
+                className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full "
               />
               <img
                 src={"images/Dart.png"}
@@ -68,7 +71,7 @@ function NavBar() {
                 className=" bg-black w-10 h-10  sm:w-15 sm:h-15 rounded-full"
               />
             </span>
-            <span className="text-5xl text-blue-500 flex flex-row   font-serif  items-center justify-center ">
+            <span className="text-5xl text-blue-500 flex flex-row  gap-1 font-serif  items-center justify-center ">
               <TypewriterEffectSmooth words={words1} />
               <img
                 src={"/images/react-logo.png"}
@@ -98,7 +101,6 @@ function NavBar() {
         </div>
       </div>
     </div>
-
   );
 }
 
