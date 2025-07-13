@@ -67,11 +67,11 @@ function NavBar() {
                   alt="flutter"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
                 />
-                <img
+                {/* <img
                   src="/images/Dart.png"
                   alt="dart"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                />
+                /> */}
               </span>
 
               <span className="text-3xl sm:text-5xl text-blue-500 flex flex-wrap gap-3 items-center justify-center sm:justify-start font-serif mt-5">
@@ -81,7 +81,7 @@ function NavBar() {
                   alt="react"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
                 />
-                <img
+                {/* <img
                   src="/images/t1.png"
                   alt="tailwind"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
@@ -90,7 +90,7 @@ function NavBar() {
                   src="/images/Node.js.png" 
                   alt="nodejs"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                />
+                /> */}
               </span>
             </div>
 
