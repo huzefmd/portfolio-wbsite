@@ -24,7 +24,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="  p-5  flex flex-col items-center justify-center gap-10 overflow-hidden">
+    <div className="  p-5  flex flex-col items-center justify-center gap-10 overflow-hidden ">
       <div>
         <div>
           <h1 className="text-center place-self-center justify-center ">
@@ -60,21 +60,6 @@ function NavBar() {
               <span className="text-3xl sm:text-4xl text-gray-400 font-mono block">
                 Hi, I am
               </span>
-
-              <span className="text-3xl sm:text-5xl text-blue-500 flex flex-wrap gap-3 items-center justify-center sm:justify-start font-serif mt-5">
-                <TypewriterEffectSmooth words={words} />
-                <img
-                  src="/images/flutter-icon-2048x2048-ufx4idi8.png"
-                  alt="flutter"
-                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                />
-                {/* <img
-                  src="/images/Dart.png"
-                  alt="dart"
-                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                /> */}
-              </span>
-
               <span className="text-3xl sm:text-5xl text-blue-500 flex flex-wrap gap-3 items-center justify-center sm:justify-start font-serif mt-5">
                 <TypewriterEffectSmooth words={words1} />
                 <img
@@ -82,27 +67,11 @@ function NavBar() {
                   alt="react"
                   className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
                 />
-                {/* <img
-                  src="/images/t1.png"
-                  alt="tailwind"
-                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                />
-                <img
-                  src="/images/Node.js.png" 
-                  alt="nodejs"
-                  className="bg-black w-10 h-10 sm:w-14 sm:h-14 rounded-full"
-                /> */}
               </span>
             </div>
 
-            <hr className="mt-10 border-gray-500" />
+            <hr className=" border-gray-500 " />
 
-            {/* Resume Button (optional) */}
-            {/* <div className="mt-6 text-center">
-    <button className="p-3 px-6 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition">
-      Resume
-    </button>
-  </div> */}
           </div>
         </div>
       </div>

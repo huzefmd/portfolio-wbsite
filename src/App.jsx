@@ -13,8 +13,11 @@ function App() {
         backgroundRepeat: "repeat",
       }}
     >
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+      <div className="flex flex-col md:flex-row items-center justify-center w-full  ">
         <NavBar />
+      </div>
+
+      <div className="flex flex-col md:flex-row items-center justify-center w-full  ">
         <Home />
       </div>
       <Footer />
