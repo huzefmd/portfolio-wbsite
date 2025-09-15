@@ -50,6 +50,7 @@ function Education() {
                     </div>
                 ))}
             </div>
+            <hr className="  border-gray-500" />
         </section>
     );
 }
