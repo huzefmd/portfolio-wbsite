@@ -70,7 +70,7 @@ function NavBar() {
               </span>
             </div>
 
-            <hr className=" border-gray-500 " />
+            {/* <hr className=" border-gray-500 " /> */}
 
           </div>
         </div>
