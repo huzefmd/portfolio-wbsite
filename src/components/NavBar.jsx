@@ -47,12 +47,10 @@ function NavBar() {
                 <div className="w-3 h-3 border border-green-500 rounded-full animate-ping bg-green-500"></div>
               </div>
               <br />
-              Hi, I’m Md Huzef — a passionate Full-Stack Developer. Flutter
-              Developer, With a strong foundation in the MERN stack and
-              experience building dynamic web and mobile applications, I love
-              solving real-world problems through clean, scalable code. I'm
-              currently expanding my skills in Flutter for cross-platform
-              development and always eager to learn and grow in the tech world.
+              Hi, I’m Md Huzef — a passionate Full-Stack Developer.
+              I specialize in the MERN stack and have hands-on experience building dynamic, scalable, and user-friendly web applications. With a solid foundation in both front-end and back-end development, I enjoy bridging the gap between design and functionality to create seamless digital experiences.
+
+              ✨ “Transforming ideas into impactful digital solutions, one line of clean and scalable code at a time.”
             </p>
           </div>
           <div className="mt-10 px-4 sm:px-10 w-full max-w-5xl mx-auto  rounded-lg">
